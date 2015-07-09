@@ -1,14 +1,26 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Vivekanand Rao's Portfolio
+email: vivekanand.rao@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A portfolio theme built using Jekyll static site generator. In addition, to Jekyll also
+  makes use of Markdown for writing our blog posts, Liquid for building out the page
+  templates and Sass for styling.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://example.com" # the base hostname & protocol for your site
+twitter_username: viveksrao
+github_username:  viveksrao
+
+permalink: /:categories/:title
+
+links:
+  - title: about
+    url:  /about
+  - work: work
+    url: /work
+  - title: articles
+    url: /articles
+  - title: hire me
+    url: /hire-me
 
 # Build settings
 markdown: kramdown
