@@ -15,7 +15,7 @@ permalink: /:categories/:title
 links:
   - title: about
     url:  /about
-  - work: work
+  - title: work
     url: /work
   - title: articles
     url: /articles
