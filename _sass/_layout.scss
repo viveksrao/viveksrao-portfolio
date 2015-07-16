@@ -22,3 +22,23 @@
   height: 299px;
   background-size: cover;
 }
+// Footer
+.site-footer{
+  padding: 2em 0;
+  color:#FFF;
+  background: $grey-color-dark;
+}
+.footer-content{
+  float: left;
+  width: 40%;
+  font-size:0.875em;
+  h3{
+    text-align: left;
+  }
+}
+.footer-social{
+  float: right;
+  li{
+    display: inline-block;
+  }
+}
